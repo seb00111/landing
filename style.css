@@ -21,9 +21,35 @@ a{
     text-decoration: none;
     color:#F9FAF8;
 }
-.header{
+.header,.section1Body{
     display:flex;
     justify-content: space-between;
     align-items: center;
     margin:0 200px;
+    color:#F9FAF8;
+    gap:30px;
+}
+
+.section1Body{
+    padding:40px 0;
+    align-items:flex-start;
+}
+.titlesection1{
+    margin:0;
+    padding:0;
+}
+
+.titlesection1{
+    font-size: 48px;
+    font-weight:bolder;
+}
+img{
+    width:450px;
+}
+button{
+    background-color: #3882F6;
+    padding:5px 25px;
+    color: #F9FAF8;
+    border-radius: 10px;
+    
 }
